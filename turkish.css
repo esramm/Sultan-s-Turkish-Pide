@@ -1,0 +1,392 @@
+/* CSS Reset */
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  border: 0px;
+}
+
+/* General */
+
+[class*=grid]{
+  margin: 0;
+}
+
+body {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 1.5rem;
+  position: static;
+}
+
+img {
+  max-width: 100%;
+}
+ grid img {
+  max-height: 50vh 12vw;
+
+ }
+
+div .grid .nav {
+  padding-top: 5em;
+}
+
+input, textarea {
+  width: 100%;
+  min-height: 2rem;
+  border-radius: 5px;
+  margin: 0.25rem;
+  font-size: 1.1rem;
+}
+
+input[type=text], input[type=email], input[type=phone], textarea {
+  border: 1px solid #989898;
+  min-height: 2.5rem;
+  padding: 8px 8px;
+}
+
+input[type=submit] {
+  background-color: #aa0c0c;
+  color: white;
+  font-size: 1.25rem;
+}
+
+.general-padding {
+  padding: 1rem;
+}
+/* Navigation*/
+
+ .fixed-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: white;
+  z-index: 99;
+  border-bottom: 2px solid #23b2cd;
+}
+
+nav a {
+  text-decoration: none;
+  padding: 30px 10px;
+  font-size: 1.2rem;
+  color: #aa0c0c;
+  display: inline-block;
+}
+
+nav a:hover {
+  background-color: #23b2cd;
+}
+
+.menu-button:hover {
+  background-color: #ff4040;
+}
+
+.menu-button a:hover {
+  color: white;
+  font-weight: bold;
+}
+
+header .icon img {
+  height: 5rem;
+  margin-left: 5px;
+}
+
+ul {
+  font-weight: bold;
+  text-align: center;
+}
+
+
+
+/* Header */
+
+p {
+  font-size: 1.25rem;
+  line-height: 1.7;
+  color: #4d4d4d;
+  text-align: center;
+}
+
+.benefit-icon {
+  font-size: 4rem;
+  color: #aa0c0c;
+  margin: 0.5rem 0;
+
+}
+
+
+.col, [class*=col-] {
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Aclonica', sans-serif;
+  color: #23b2cd;
+  text-align: center;
+}
+
+h2, h3, h4 {
+  margin: 0.5rem 0 0.3rem 0;
+}
+
+h6 {
+  font-family: 'Aclonica', sans-serif;
+  color: #4d4d4d;
+  text-align: center;
+}
+
+.padded-bottom {
+  padding-bottom: 1rem;
+}
+
+.padded-top {
+  padding-top: 3rem;
+}
+
+li {
+  font-size: 1.25rem;
+  color: #4d4d4d;
+  list-style: none;
+}
+
+
+.right {
+  text-align: right;
+}
+
+.padded-section {
+  padding: 5vw;
+}
+
+.alternate-section {
+  background-color: rgba(35,178,205,0.16);
+}
+
+.events-section {
+  text-align: center;
+}
+
+.menu-delivery {
+  text-align: center;
+  font-weight: bold;
+}
+
+.second-lighter {
+  font-weight: normal;
+}
+
+.menu-description-border {
+
+  border-radius: 11px;
+  margin-bottom: 4rem;
+  border: 0.5rem solid #23b2cd;
+}
+/* Banner */
+
+/* Slideshow container */
+
+.mySlides {
+    display: none;
+    width: 100%;
+    max-height: 600px;
+}
+
+.homepage-banner-section .subtitle {
+  color: white;
+  text-align: center;
+  position: absolute;
+  top: 350px;
+  left: 450px;
+  z-index: 2;
+  border-radius: 20rem;
+}
+
+
+.homepage-banner-section h1 {
+  color: white;
+  text-align: center;
+  position: relative;
+  top: 300px;
+  left: 70px;
+  z-index: 6;
+}
+
+/* Benefits */
+.benefit-box {
+  text-align: center;
+  padding: 0 1rem;
+}
+
+/*  About us */
+.about-section {
+  text-align: center;
+}
+
+.about-section img {
+  padding: 2rem;
+  border-radius: 50%;
+}
+
+/* Delivery */
+
+.delivery-row {
+  padding: 1rem 0;
+}
+
+/* Menu */
+.menu-button {
+  background-color: #aa0c0c;
+  text-align: center;
+  border-radius: 1rem;
+}
+
+.menu-button a {
+  text-decoration: none;
+  font-family: 'Aclonica', sans-serif;
+  color: white;
+  font-weight: bold;
+  font-size: 1.2rem;
+  padding: 1.5rem;
+  display: inline-block;
+}
+
+/* Contact Us */
+.menu-section {
+  text-align: center;
+}
+
+/* Menu */
+.menu-section {
+  text-align: center;
+}
+
+.snipcart-add-item {
+  border: 1px solid black;
+  color: white;
+  font-weight: bold;
+  background-color: #aa0c0c;
+  text-align: center;
+  border-radius: 1rem;
+  padding: 1rem;
+  margin-bottom: 5rem;
+  margin-top: 1rem;
+}
+
+.snipcart-add-item:hover {
+  color: white;
+  background-color: #4d4d4d;
+  font-weight: bold;
+}
+
+/* placeholder text area*/
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #4d4d4d;
+  font-family: 'Josefin Sans', sans-serif;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: #4d4d4d;
+  font-family: 'Josefin Sans', sans-serif;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: #4d4d4d;
+  font-family: 'Josefin Sans', sans-serif;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: #4d4d4d;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+/* Mobile responsiveness */
+/* this is where you style the button if you want to add more space between the spans than add padding to this div but make sure you also add it to the top and bottom active classes on there top/bottom or else your cross wont line up*/
+
+.mobile-show {
+  display: none;
+}
+
+@media (max-width: 48em) {
+    .mobile-hide{
+      display: none;
+    }
+    .mobile-show {
+      display: inline-block;
+    }
+}
+.burger-button {
+  position:fixed;
+  top: 2vh;
+  right: 2vh;
+  z-index: 999;
+  padding: 8px;
+}
+/*this is where you can chand the color of the buttons*/
+.burger-button span{
+  width: 25px;
+  border: 2px solid black;
+  display: block;
+  border-radius: 22px;
+  transition: 2s;
+}
+.burger-top, .burger-bottom{
+  position: absolute;
+}
+
+.burger-top{
+  top: 02px;
+}
+
+.burger-bottom{
+  bottom: 02px;
+}
+/* make sure this has the same top as the burger button has padding*/
+.burger-button.active .burger-top{
+  position: absolute;
+  top: 8px;
+  transform: rotateZ(45deg);
+}
+
+.burger-button.active .burger-middle{
+  transform: rotateZ(270deg);
+  border-color: rgba(0,0,0,0)
+}
+
+/* make sure this has the same bottom as the burger button has padding*/
+
+.burger-button.active .burger-bottom{
+  position: absolute;
+  bottom: 8px;
+  transform: rotateZ(-45deg);
+}
+
+
+.burger-menu {
+    display: none;
+    position: fixed;
+    top: 0;
+    left:0;
+    right: 0;
+    bottom: 0;
+    background-color: #f9f9f9;
+    padding:5px;
+    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.1);
+    z-index: 99;
+}
+
+.burger-menu a {
+  text-decoration: none;
+  padding: 15px 11px;
+  font-size: 20px;
+  font-weight: 300;
+  color: #C3BFBC;
+  font-family: 'Alegreya Sans SC', sans-serif;
+  display:block;
+  padding:5px 15px;
+  text-align:center;
+  white-space:nowrap;
+  transition: 2s;
+}
+
+.burger-menu a:hover {
+  background-color: #aa0c0c;
+  color: white;
+}
+
+.burger-menu li{list-style:none}
